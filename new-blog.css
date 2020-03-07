@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+html {
+    background: linear-gradient(0.25turn, #f35e31, #eee128, #26d63d);
+}
+
+h1.village {
+    font-size: x-large;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family: serif;
+    border-collapse: collapse;
+    color: black;
+}
+
+section.tiana p {
+    font-family: Georgia, serif;
+    text-orientation: sideways-right;
+  }
+
+h2#aina {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkturquoise;
+    text-shadow: 1px 1px 2px rgb(250, 242, 242), 0 0 1em blue, 0 0 0.2em blue;
+    color:yellow;
+    font: 1.5em Georgia, serif;
+}
+
+h3#headings {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font: 1.5em Georgia, serif;;
+}
+
+a.tsotso {
+    background-color: rgba(80, 122, 238, 0.904);
+    color: rgb(10, 7, 41);
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
