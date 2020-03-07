@@ -16,6 +16,11 @@ a:hover {
     text-transform: lowercase;
   }
 
+ul#list, ul.tiana {
+    list-style: none;
+    margin-left: 0;
+  }
+
   a:hover {
     text-decoration: underline;
   }
@@ -28,3 +33,35 @@ a:hover {
     color: purple;
   }
   
+h1.blog {
+  font: 1.5em Georgia, serif;
+  color: rgb(244, 248, 248);
+  text-shadow: 1px 1px 2px rgb(226, 128, 128), 0 0 1em rgb(87, 207, 236), 0 0 0.2em rgb(233, 115, 19);
+}
+
+.heich {
+  color: darkslategrey;
+  text-shadow: 1px 1px 2px rgb(243, 234, 234), 0 0 1em rgb(83, 190, 69), 0 0 0.2em rgb(148, 221, 240);
+}
+
+.small {
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
+}
+
+.blockquote {
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#chipalone, #meshim, #onhead {
+    height: 600px;
+    width: 40%;
+}
+
+#dil {
+  background: linear-gradient(to left, rgba(238, 77, 56, 0.952), rgba(247, 244, 71, 0.747) 50%, rgba(102, 235, 120, 0.897) 75%, rgb(95, 204, 231) 75%);
+  color: darkslategray;
+  font-weight: 900;
+}
